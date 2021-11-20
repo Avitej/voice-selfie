@@ -10,7 +10,7 @@ recognition.onresult = function run(event){
     console.log(content);
     document.getElementById("textbox").innerHTML = content;
     console.log(content);
-    if (content == "Take my selfie.") {
+    if (content == "take my selfie") {
         console.log("taking selfie in 5 seconds");
         speak();
     }
